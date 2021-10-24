@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="timeBank.css"media="all">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="timeBank.js"></script>
+  <title>Time Bank</title>
+
+</head>
+<body>
+
+    <div id="Home" >
+        <div id="site_wrap">
+            <div class="header"></div>
+            <div class="featured-header">
+                <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                  </svg>
+                    <button id='tabHome' onclick="parent.location='timeBankHome.html'">Home</button>
+                    <button id='tabTransaction' onclick="parent.location='timeBankTransaction.html'">Transaction</button>
+                    <button id='tabProfile' onclick="parent.location='timeBankProfile.html'">Profile</button>
+            </div>
+            <div class="featured-main">
+                <h1>Welcome</h1>
+                <p>Welcome back to Time<br>
+                    Bank, explore in the<br> 
+                    panel below to find<br> 
+                    current available<br>
+                    expertise to hire!
+                </p>
+                <img class="img-hammer" src="https://source.unsplash.com/XZuqMUiSdgc" height="250px" width="250px">
+
+            </div>
+            <div class="featured-profile">
+                <h1>Profile</h1>
+                <img class="img-mechanic" src="https://source.unsplash.com/qcF-19BvViE" height="150px" width="225px">
+                <p>NAME: Jason Vitug<br>
+                    DATE OF BIRTH: 03/28/1999<br> 
+                    EXPERTISE: Mechanic<br> 
+                </p>  
+                <button id="tabProfile" onclick="parent.location='timeBankProfile.html'">Go To Profile</button>
+            </div>
+            <div class="content">
+                <h1>Explore</h1>
+                <input type="text" id="explore" value="Bike Repair">
+                <button class="search" onclick="parent.location='timeBankHomeSearch.html'">Search</button>
+                <p>No current expertises are available</p>
+            </div>
+            <div class="footer">
+                <h1 class="contact">CONTACT</h1> <h1 class="help">HELP</h1>    
+            </div>
+
+        </div>
+</body>
+
+</html>
